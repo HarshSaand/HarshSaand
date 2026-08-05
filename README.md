@@ -1,168 +1,173 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/signal-system-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/signal-system-light.svg">
-  <img alt="Signal to System: silicon, speech, vision, and trust connected through an evaluated AI systems pipeline" src="assets/signal-system-light.svg">
+  <img alt="Harsh Saand's animated signal map connecting semiconductor intelligence, speech, vision, and trustworthy AI" src="assets/signal-system-light.svg">
 </picture>
 
 # Harsh Saand
 
 **AI engineer · MSc Artificial Intelligence candidate at NTU Singapore**
 
-I build evaluation-minded AI systems across semiconductor intelligence, multilingual speech, computer vision, and trustworthy multimodal analysis. I am most interested in the point where a strong model becomes an inspectable system another person can actually use.
+I like AI most when it crosses disciplines: process physics becomes a fast design tool, a wafer image becomes an inspectable review signal, or a multilingual recording becomes useful without leaving the machine. I build these systems from mechanism to evidence to interface, then document where they stop being reliable.
 
-[Email](mailto:harshsaand@yahoo.com) · [LinkedIn](https://www.linkedin.com/in/harsh-saand-961228230) · [Ask a technical question](https://github.com/HarshSaand/HarshSaand/issues/new?title=Technical%20question%3A%20&body=Hi%20Harsh%2C%0A%0AI%20was%20looking%20at%20%E2%80%A6)
+[Email](mailto:harshsaand@yahoo.com) · [LinkedIn](https://www.linkedin.com/in/harsh-saand-961228230) · [Start a technical conversation](https://github.com/HarshSaand/HarshSaand/issues/new?title=Technical%20conversation%3A%20&body=Hi%20Harsh%2C%0A%0AI%20was%20looking%20at%20...)
 
-### Pick your lens
+### Follow a signal
 
-[Hiring teams → selected systems](#selected-systems) · [Researchers → questions and boundaries](#questions-i-am-carrying-forward) · [Engineers → how I build](#how-i-build)
+[Semiconductor intelligence](#semiconductor-intelligence) · [Speech and language](#speech-and-language) · [Vision and multimodal AI](#vision-and-multimodal-ai) · [Evaluation and trust](#evaluation-and-trust)
 
 ---
 
-## Selected systems
+## The map
 
-Four projects, ordered by the technical thread I want to keep developing: understand the mechanism, expose the evidence, and state the boundary.
+<a id="semiconductor-intelligence"></a>
 
-<a id="processtwin"></a>
+**Semiconductor intelligence**
 
-### 01 · [ProcessTwin AI TCAD](https://github.com/HarshSaand/processtwin-ai-tcad)
+Physics-guided learning, wafer-map understanding, surrogate modelling, uncertainty, and engineer-facing evidence.
 
-**Question.** Can reduced-order silicon process physics and a learned surrogate support fast recipe exploration without hiding what the model approximates?
+<a id="speech-and-language"></a>
 
-**Built.** Deal–Grove oxidation, 1D dopant diffusion, a deterministic 6,000-recipe simulated DOE, PCA profile compression, residual MLP ensembles, OOD warnings, and simulator-verified inverse design.
+**Speech and language**
 
-**Evidence.** Held-out simulator fidelity reached R² 0.9968 for oxide thickness and 0.9985 for junction depth. These are simulator-backed results, not fab calibration.
+Local multilingual transcription, translation, diarization, retrieval, and privacy-conscious pipelines.
 
-<details>
-<summary><b>Open technical brief</b> — architecture, evidence, and limits</summary>
+<a id="vision-and-multimodal-ai"></a>
 
-#### System path
+**Vision and multimodal AI**
 
-`recipe → reduced-order physics → simulated DOE → PCA + residual ensemble → prediction / disagreement / inverse search → solver verification`
+Computer vision, synthetic-media analysis, 3D reconstruction, diffusion models, and evidence fusion.
 
-#### Inspect
+<a id="evaluation-and-trust"></a>
 
-- [Physics and model source](https://github.com/HarshSaand/processtwin-ai-tcad/tree/main/src/processtwin)
-- [Saved evaluation metrics](https://github.com/HarshSaand/processtwin-ai-tcad/blob/main/outputs/metrics.json)
-- [Tests](https://github.com/HarshSaand/processtwin-ai-tcad/tree/main/tests)
-- [Technical report](https://github.com/HarshSaand/processtwin-ai-tcad/blob/main/outputs/processtwin_report.pdf)
+**Evaluation and trust**
 
-#### Boundary
+Grouped splits, calibration, abstention, distribution-shift awareness, provenance, and claims that match the evidence.
 
-The simulator omits geometry effects, segregation, clustering, implant damage, stress, equipment variation, and fab calibration. The ensemble bands are uncalibrated model-disagreement signals, not calibrated predictive intervals. The saved interpolation test also shows that this deliberately simple physics solver can be faster than the surrogate.
+## Latest from the lab
 
-</details>
+This section refreshes automatically from my latest substantial public repositories. A new project with a clear GitHub description joins the feed after its first push.
 
-<a id="wafer-triage"></a>
+<!-- RECENT_WORK:START -->
+**[LithoTwin AI TCAD](https://github.com/HarshSaand/lithotwin-ai-tcad)**<br>
+Conditional neural surrogate for computational lithography and resist-contour prediction.<br>
+<sub>Mixed stack / Aug 2026</sub>
 
-### 02 · [Wafer Process Signature Triage](https://github.com/HarshSaand/wafer-process-signature-triage)
+**[Local Multilingual Speech Intelligence](https://github.com/HarshSaand/local-multilingual-speech-intelligence)**<br>
+Privacy-conscious local multilingual transcription, translation and optional speaker diarization with structured exports.<br>
+<sub>Python / local ai / multilingual / Aug 2026</sub>
 
-**Question.** Can wafer-map geometry be converted into a useful review signal while keeping spatial structure visible to an engineer?
+**[ProcessTwin AI TCAD](https://github.com/HarshSaand/processtwin-ai-tcad)**<br>
+Physics-grounded surrogate modelling for silicon oxidation, dopant diffusion, uncertainty and inverse process design.<br>
+<sub>Python / inverse design / physics informed ml / Aug 2026</sub>
 
-**Built.** Cartesian and polar CNN views fused with a 17-value spatial signature, grouped splitting, temperature calibration, uncertainty routing, and similar-case retrieval.
+**[Multi-Agent Tileworld](https://github.com/HarshSaand/Multi-Agent-Tile-PJ)**<br>
+Cooperative Tileworld agents using A*, shared working memory, broadcasts, complementary patrols and fuel-aware planning.<br>
+<sub>Java / a star / cooperative ai / Aug 2026</sub>
 
-**Evidence.** The saved seed-42 run reached 0.812 macro-F1 on an untouched 138-image grouped test split across nine classes.
+**[Wafer Process Signature Triage](https://github.com/HarshSaand/wafer-process-signature-triage)**<br>
+Interpretable wafer-map classification with spatial signatures, calibrated confidence and similar-case retrieval.<br>
+<sub>Python / anomaly triage / computer vision / Aug 2026</sub>
 
-<details>
-<summary><b>Open technical brief</b> — data audit, evaluation, and limits</summary>
+**[DeepShield ApprovalGuard](https://github.com/HarshSaand/deepshield-approvalguard)**<br>
+Local multimodal media-integrity review prototype for sensitive financial instructions, with human escalation and abstention.<br>
+<sub>Python / audio antispoofing / deepfake detection / Aug 2026</sub>
+<!-- RECENT_WORK:END -->
 
-#### System path
+## Four systems worth opening
 
-`wafer image → audit + grouped split → Cartesian / polar views + spatial descriptors → calibrated ranking → review route + similar cases`
+These are not the limits of what I build. They are the clearest examples of how I think.
 
-#### Inspect
+<details open>
+<summary><b>ProcessTwin AI TCAD</b> | physics-guided semiconductor modelling</summary>
 
-- [Data provenance](https://github.com/HarshSaand/wafer-process-signature-triage/blob/main/DATA_PROVENANCE.md)
-- [Model and feature source](https://github.com/HarshSaand/wafer-process-signature-triage/tree/main/src/wafer_tcad)
-- [Saved evaluation metrics](https://github.com/HarshSaand/wafer-process-signature-triage/blob/main/outputs/metrics.json)
-- [Tests](https://github.com/HarshSaand/wafer-process-signature-triage/tree/main/tests)
+[Open repository](https://github.com/HarshSaand/processtwin-ai-tcad)
 
-#### Boundary
+Can reduced-order silicon process physics and a learned surrogate support fast recipe exploration without hiding what the model approximates?
 
-This is pattern triage, not causal root-cause diagnosis. The result comes from one seed and a curated 902-image JPEG derivative with 15–16 test examples per class. Multiple-seed intervals, stronger ablations, and a global cross-label near-duplicate audit remain follow-up work.
+`recipe → reduced-order physics → simulated DOE → PCA + residual ensemble → inverse search → solver verification`
 
-</details>
-
-<a id="deepshield"></a>
-
-### 03 · [DeepShield ApprovalGuard](https://github.com/HarshSaand/deepshield-approvalguard)
-
-**Question.** Before a sensitive financial instruction moves forward, can local AI surface media-integrity evidence that deserves human review?
-
-**Built.** Separate synthetic-voice, face-manipulation, visual-continuity, media-quality, and audio–video timing branches with timestamped evidence, abstention, and structured review routing.
-
-**Evidence.** The AASIST audio branch reached ROC-AUC 0.9078 on a balanced 570-file ASVspoof subset; the other branches are demonstrated with functional fixtures rather than presented as validated detectors.
-
-<details>
-<summary><b>Open technical brief</b> — evidence branches, governance, and limits</summary>
-
-#### System path
-
-`recording → quality checks → independent evidence branches → timestamped timeline → STANDARD / REVIEW / ESCALATE / INSUFFICIENT EVIDENCE`
-
-#### Inspect
-
-- [Evidence pipeline](https://github.com/HarshSaand/deepshield-approvalguard/tree/main/approvalguard)
-- [Evaluation artifacts](https://github.com/HarshSaand/deepshield-approvalguard/tree/main/evaluation)
-- [Dataset card](https://github.com/HarshSaand/deepshield-approvalguard/blob/main/DATASET_CARD.md)
-- [Third-party model provenance](https://github.com/HarshSaand/deepshield-approvalguard/blob/main/THIRD_PARTY_MODELS.md)
-
-#### Boundary
-
-The system supports review; it does not establish identity, intent, or fraud. Scores are evidence scales rather than calibrated fraud probabilities. The quantitative result covers the audio branch only, and the showcase threshold was selected and measured on the same subset.
+- Built Deal-Grove oxidation, 1D dopant diffusion, a deterministic 6,000-recipe simulated DOE, PCA profile compression, residual MLP ensembles, OOD warnings, and simulator-verified inverse design.
+- Held-out simulator fidelity reached R² 0.9968 for oxide thickness and 0.9985 for junction depth. These are simulator-backed results, not fab calibration.
+- [Inspect the source](https://github.com/HarshSaand/processtwin-ai-tcad/tree/main/src/processtwin), [saved metrics](https://github.com/HarshSaand/processtwin-ai-tcad/blob/main/outputs/metrics.json), [tests](https://github.com/HarshSaand/processtwin-ai-tcad/tree/main/tests), or the [technical report](https://github.com/HarshSaand/processtwin-ai-tcad/blob/main/outputs/processtwin_report.pdf).
 
 </details>
 
-<a id="speech"></a>
+<details>
+<summary><b>Wafer Process Signature Triage</b> | spatial evidence for engineering review</summary>
 
-### 04 · [Local Multilingual Speech Intelligence](https://github.com/HarshSaand/local-multilingual-speech-intelligence)
+[Open repository](https://github.com/HarshSaand/wafer-process-signature-triage)
 
-**Question.** How can multilingual recordings be transcribed, translated, speaker-labelled, and reviewed while keeping audio processing local?
+Can wafer-map geometry become a useful review signal while keeping spatial structure visible to an engineer?
 
-**Built.** A compact `faster-whisper` pipeline with optional `pyannote.audio` diarization, temporal-overlap speaker assignment, and accessible TXT, JSON, and HTML exports.
+`wafer image → grouped split → Cartesian and polar views → calibrated ranking → review route + similar cases`
 
-**Evidence.** The public repository includes synthetic data and deterministic tests for timestamps, speaker overlap, JSON preservation, and HTML escaping. It is a reference pipeline, not a claimed speech-quality benchmark.
+- Fused Cartesian and polar CNN views with a 17-value spatial signature, grouped splitting, temperature calibration, uncertainty routing, and similar-case retrieval.
+- The saved seed-42 run reached 0.812 macro-F1 on an untouched 138-image grouped test split across nine classes.
+- This is pattern triage, not causal root-cause diagnosis. [Inspect provenance](https://github.com/HarshSaand/wafer-process-signature-triage/blob/main/DATA_PROVENANCE.md), [source](https://github.com/HarshSaand/wafer-process-signature-triage/tree/main/src/wafer_tcad), [metrics](https://github.com/HarshSaand/wafer-process-signature-triage/blob/main/outputs/metrics.json), or [tests](https://github.com/HarshSaand/wafer-process-signature-triage/tree/main/tests).
+
+</details>
 
 <details>
-<summary><b>Open technical brief</b> — local pipeline, privacy, and limits</summary>
+<summary><b>DeepShield ApprovalGuard</b> | multimodal integrity evidence</summary>
 
-#### System path
+[Open repository](https://github.com/HarshSaand/deepshield-approvalguard)
+
+Before a sensitive financial instruction moves forward, can local AI surface media-integrity evidence that deserves human review?
+
+`recording → quality checks → independent evidence branches → timestamped timeline → review route`
+
+- Combined synthetic-voice, face-manipulation, visual-continuity, media-quality, and audio-video timing branches with timestamped evidence and abstention.
+- The AASIST audio branch reached ROC-AUC 0.9078 on a balanced 570-file ASVspoof subset. Other branches use functional fixtures and are not presented as validated detectors.
+- The system supports review; it does not establish identity, intent, or fraud. [Inspect the pipeline](https://github.com/HarshSaand/deepshield-approvalguard/tree/main/approvalguard), [evaluation](https://github.com/HarshSaand/deepshield-approvalguard/tree/main/evaluation), [dataset card](https://github.com/HarshSaand/deepshield-approvalguard/blob/main/DATASET_CARD.md), or [model provenance](https://github.com/HarshSaand/deepshield-approvalguard/blob/main/THIRD_PARTY_MODELS.md).
+
+</details>
+
+<details>
+<summary><b>Local Multilingual Speech Intelligence</b> | private speech pipelines</summary>
+
+[Open repository](https://github.com/HarshSaand/local-multilingual-speech-intelligence)
+
+How can multilingual recordings be transcribed, translated, speaker-labelled, and reviewed while keeping audio processing local?
 
 `local media → VAD + faster-whisper → optional diarization → overlap assignment → TXT / JSON / HTML`
 
-#### Inspect
-
-- [Pipeline source](https://github.com/HarshSaand/local-multilingual-speech-intelligence/blob/main/local_speech_intelligence.py)
-- [Synthetic output](https://github.com/HarshSaand/local-multilingual-speech-intelligence/blob/main/examples/synthetic-transcript.json)
-- [Tests](https://github.com/HarshSaand/local-multilingual-speech-intelligence/tree/main/tests)
-
-#### Boundary
-
-The public reference contains no employer source, recordings, customer transcripts, identifiers, private vocabulary, or production configuration. Model setup may download weights, but audio inference is local. WER, translation quality, diarization error, and runtime are not yet benchmarked here.
+- Built a compact `faster-whisper` pipeline with optional `pyannote.audio` diarization, temporal-overlap speaker assignment, and accessible exports.
+- The repository includes synthetic data and deterministic tests for timestamps, speaker overlap, JSON preservation, and HTML escaping. It is a reference pipeline, not a claimed speech-quality benchmark.
+- [Inspect the source](https://github.com/HarshSaand/local-multilingual-speech-intelligence/blob/main/local_speech_intelligence.py), [synthetic output](https://github.com/HarshSaand/local-multilingual-speech-intelligence/blob/main/examples/synthetic-transcript.json), or [tests](https://github.com/HarshSaand/local-multilingual-speech-intelligence/tree/main/tests).
 
 </details>
 
----
-
-## How I build
+## How I think
 
 ```text
-define the failure mode
+find the failure mode
         ↓
 build the smallest measurable system
         ↓
 inspect errors and distribution shifts
         ↓
-document what the result does not prove
+state what the result does not prove
         ↓
 design the path to use
 ```
 
-- **Mechanism before mystique.** I want to know what produces the output and where the abstraction breaks.
-- **Evaluation before adjectives.** A metric needs a dataset, protocol, baseline, and boundary around it.
-- **Privacy is architecture.** Data handling and deployment constraints shape the system from the beginning.
-- **Interfaces are part of the model.** Evidence is only useful if another person can inspect and act on it.
+**Mechanism before mystique.** I want to know what produces an output and where the abstraction breaks.
 
-## Questions I am carrying forward
+**Evaluation before adjectives.** A metric needs a dataset, protocol, baseline, and honest boundary around it.
+
+**Privacy is architecture.** Data handling and deployment constraints shape a system from the beginning.
+
+**Interfaces are part of the model.** Evidence matters when another person can inspect it and make a better decision.
+
+<details>
+<summary><b>More experiments and earlier builds</b></summary>
+
+My broader work includes [multi-agent Tileworld](https://github.com/HarshSaand/Multi-Agent-Tile-PJ), retrieval-augmented generation, diffusion style transfer, disaster-tweet classification, and geometric 3D reconstruction. Some are compact experiments; others grew into the systems above.
+
+</details>
+
+## Questions I want to keep chasing
 
 - How can mechanistic models and learned surrogates work together with uncertainty that is actually calibrated?
 - How should multimodal integrity systems behave under distribution shift, missing evidence, and deliberate attack?
@@ -171,14 +176,14 @@ design the path to use
 ## Technical working set
 
 ```text
-Learning systems   PyTorch · Transformers · RAG · LoRA/PEFT · model evaluation
-Speech & language  faster-whisper · WhisperX · pyannote · multilingual translation
-Vision             CNNs · diffusion models · geometric vision · 3D reconstruction
-Engineering        Python · Java · REST APIs · Docker · Kubernetes · GPU computing
+Learning systems   PyTorch, Transformers, RAG, LoRA/PEFT, model evaluation
+Speech and NLP     faster-whisper, WhisperX, pyannote, multilingual translation
+Vision             CNNs, diffusion models, geometric vision, 3D reconstruction
+Engineering        Python, Java, REST APIs, Docker, Kubernetes, GPU computing
 ```
 
 ## Let’s compare notes
 
-I am open to internships and early-career roles in applied AI/ML and research engineering, especially around semiconductor intelligence, speech and NLP, computer vision, multimodal systems, and trustworthy evaluation.
+I am open to internships and early-career roles in applied AI/ML and research engineering, especially in semiconductor intelligence, speech and NLP, computer vision, multimodal systems, and trustworthy evaluation.
 
-If one of these systems overlaps with a problem you are working on, [send me an email](mailto:harshsaand@yahoo.com), [connect on LinkedIn](https://www.linkedin.com/in/harsh-saand-961228230), or [open a technical question](https://github.com/HarshSaand/HarshSaand/issues/new?title=Technical%20question%3A%20&body=Hi%20Harsh%2C%0A%0AI%20was%20looking%20at%20%E2%80%A6).
+If our questions overlap, [email me](mailto:harshsaand@yahoo.com), [connect on LinkedIn](https://www.linkedin.com/in/harsh-saand-961228230), or [start a technical conversation](https://github.com/HarshSaand/HarshSaand/issues/new?title=Technical%20conversation%3A%20&body=Hi%20Harsh%2C%0A%0AI%20was%20looking%20at%20...).
