@@ -51,7 +51,7 @@ This section refreshes automatically from my latest substantial public repositor
 <!-- RECENT_WORK:START -->
 **[LithoTwin AI TCAD](https://github.com/HarshSaand/lithotwin-ai-tcad)**<br>
 Conditional neural surrogate for computational lithography and resist-contour prediction.<br>
-<sub>Mixed stack / Aug 2026</sub>
+<sub>Python / Aug 2026</sub>
 
 **[Local Multilingual Speech Intelligence](https://github.com/HarshSaand/local-multilingual-speech-intelligence)**<br>
 Privacy-conscious local multilingual transcription, translation and optional speaker diarization with structured exports.<br>
