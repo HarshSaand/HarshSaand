@@ -49,25 +49,25 @@ Grouped splits, calibration, abstention, distribution-shift awareness, provenanc
 This section refreshes automatically from my latest substantial public repositories. A new project with a clear GitHub description joins the feed after its first push.
 
 <!-- RECENT_WORK:START -->
-**[LithoTwin AI TCAD](https://github.com/HarshSaand/lithotwin-ai-tcad)**<br>
+**[Processtwin Semiconductor Ai](https://github.com/HarshSaand/processtwin-semiconductor-ai)**<br>
+Physics-grounded surrogate modelling for silicon oxidation, dopant diffusion, uncertainty and inverse process design.<br>
+<sub>Python / inverse design / physics informed ml / Aug 2026</sub>
+
+**[Lithotwin Computational Lithography](https://github.com/HarshSaand/lithotwin-computational-lithography)**<br>
 Conditional neural surrogate for computational lithography and resist-contour prediction.<br>
 <sub>Python / Aug 2026</sub>
+
+**[Wafer Process Signature Triage](https://github.com/HarshSaand/wafer-process-signature-triage)**<br>
+Interpretable wafer-map classification with spatial signatures, calibrated confidence and similar-case retrieval.<br>
+<sub>Python / anomaly triage / computer vision / Aug 2026</sub>
 
 **[Local Multilingual Speech Intelligence](https://github.com/HarshSaand/local-multilingual-speech-intelligence)**<br>
 Privacy-conscious local multilingual transcription, translation and optional speaker diarization with structured exports.<br>
 <sub>Python / local ai / multilingual / Aug 2026</sub>
 
-**[ProcessTwin AI TCAD](https://github.com/HarshSaand/processtwin-ai-tcad)**<br>
-Physics-grounded surrogate modelling for silicon oxidation, dopant diffusion, uncertainty and inverse process design.<br>
-<sub>Python / inverse design / physics informed ml / Aug 2026</sub>
-
 **[Multi-Agent Tileworld](https://github.com/HarshSaand/Multi-Agent-Tile-PJ)**<br>
 Cooperative Tileworld agents using A*, shared working memory, broadcasts, complementary patrols and fuel-aware planning.<br>
 <sub>Java / a star / cooperative ai / Aug 2026</sub>
-
-**[Wafer Process Signature Triage](https://github.com/HarshSaand/wafer-process-signature-triage)**<br>
-Interpretable wafer-map classification with spatial signatures, calibrated confidence and similar-case retrieval.<br>
-<sub>Python / anomaly triage / computer vision / Aug 2026</sub>
 
 **[DeepShield ApprovalGuard](https://github.com/HarshSaand/deepshield-approvalguard)**<br>
 Local multimodal media-integrity review prototype for sensitive financial instructions, with human escalation and abstention.<br>
