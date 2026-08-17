@@ -49,6 +49,10 @@ Grouped splits, calibration, abstention, distribution-shift awareness, provenanc
 This section refreshes automatically from my latest substantial public repositories. A new project with a clear GitHub description joins the feed after its first push.
 
 <!-- RECENT_WORK:START -->
+**[Harshsaand.Github.Io](https://github.com/HarshSaand/HarshSaand.github.io)**<br>
+Harsh Saand's public AI portfolio.<br>
+<sub>HTML / Aug 2026</sub>
+
 **[Processtwin Semiconductor Ai](https://github.com/HarshSaand/processtwin-semiconductor-ai)**<br>
 Physics-grounded surrogate modelling for silicon oxidation, dopant diffusion, uncertainty and inverse process design.<br>
 <sub>Python / inverse design / physics informed ml / Aug 2026</sub>
@@ -68,10 +72,6 @@ Privacy-conscious local multilingual transcription, translation and optional spe
 **[Multi-Agent Tileworld](https://github.com/HarshSaand/Multi-Agent-Tile-PJ)**<br>
 Cooperative Tileworld agents using A*, shared working memory, broadcasts, complementary patrols and fuel-aware planning.<br>
 <sub>Java / a star / cooperative ai / Aug 2026</sub>
-
-**[DeepShield ApprovalGuard](https://github.com/HarshSaand/deepshield-approvalguard)**<br>
-Local multimodal media-integrity review prototype for sensitive financial instructions, with human escalation and abstention.<br>
-<sub>Python / audio antispoofing / deepfake detection / Aug 2026</sub>
 <!-- RECENT_WORK:END -->
 
 ## Four systems worth opening
