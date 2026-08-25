@@ -74,11 +74,56 @@ Cooperative Tileworld agents using A*, shared working memory, broadcasts, comple
 <sub>Java / a star / cooperative ai / Aug 2026</sub>
 <!-- RECENT_WORK:END -->
 
-## Four systems worth opening
+## Seven systems worth opening
 
 These are not the limits of what I build. They are the clearest examples of how I think.
 
 <details open>
+<summary><b>Merchant Mirror</b> | merchant descriptor resolution</summary>
+
+[Open repository](https://github.com/HarshSaand/merchant-mirror)
+
+Can noisy card-statement descriptions be resolved to likely merchants without forcing a low-confidence match?
+
+`descriptor → normalization → candidate retrieval → reranking → calibrated match or review`
+
+- Built descriptor normalization, character and token similarity, location-aware ranking, confidence margins, and an auditable evidence record.
+- The included six-case fixture verifies the end-to-end pipeline. It is a smoke test, not a benchmark estimate.
+- The full experiment is structured for sentence-transformer retrieval, cross-encoder reranking, constrained LLM comparison, and held-out-city evaluation.
+
+</details>
+
+<details>
+<summary><b>EdgeCase Foundry</b> | GenAI-assisted model stress testing</summary>
+
+[Open repository](https://github.com/HarshSaand/edgecase-foundry)
+
+Can an emerging risk hypothesis become a validated, reproducible model stress test before enough real examples accumulate?
+
+`risk hypothesis → typed scenario → constraint validation → sequence generation → model replay`
+
+- Built a natural-language scenario compiler, deterministic validation, seeded transaction generation, and failure-slice replay.
+- In the included controlled scenario, a transparent threshold model detected 86 of 200 final risk events, exposing the intended threshold blind spot.
+- The result characterizes the fixture and model under test; it is not an estimate of fraud prevented.
+
+</details>
+
+<details>
+<summary><b>PausePoint</b> | streaming scam-risk analysis</summary>
+
+[Open repository](https://github.com/HarshSaand/pausepoint)
+
+Can a system recognize social-engineering progression early enough to support a proportionate intervention?
+
+`incoming message → fast signals → rolling risk state → selective LLM evidence → policy action`
+
+- Built message-by-message replay, conversation-stage signals, rolling risk, evidence recording, and monitor, review, or warning routes.
+- The included four-turn fixture escalates from monitoring to LLM review on turn three and `warn_and_verify` on turn four.
+- The proposed hybrid architecture keeps a compact model in the fast path and uses a constrained LLM only for ambiguous cases.
+
+</details>
+
+<details>
 <summary><b>ProcessTwin AI TCAD</b> | physics-guided semiconductor modelling</summary>
 
 [Open repository](https://github.com/HarshSaand/processtwin-ai-tcad)
