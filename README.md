@@ -50,8 +50,20 @@ This section refreshes automatically from my latest substantial public repositor
 
 <!-- RECENT_WORK:START -->
 **[Harshsaand.Github.Io](https://github.com/HarshSaand/HarshSaand.github.io)**<br>
-Harsh Saand's public AI portfolio.<br>
+Harsh Saand’s personal website featuring AI engineering experience, education, projects and results.<br>
 <sub>HTML / Aug 2026</sub>
+
+**[Pausepoint](https://github.com/HarshSaand/pausepoint)**<br>
+Streaming NLP system for conversation-stage scam risk and evidence-led intervention.<br>
+<sub>Python / Aug 2026</sub>
+
+**[Edgecase Foundry](https://github.com/HarshSaand/edgecase-foundry)**<br>
+GenAI-assisted model assurance workbench for reproducible transaction stress tests.<br>
+<sub>Python / Aug 2026</sub>
+
+**[Merchant Mirror](https://github.com/HarshSaand/merchant-mirror)**<br>
+Selective NLP and entity-resolution system for noisy payment merchant descriptors.<br>
+<sub>Python / Aug 2026</sub>
 
 **[Processtwin Semiconductor Ai](https://github.com/HarshSaand/processtwin-semiconductor-ai)**<br>
 Physics-grounded surrogate modelling for silicon oxidation, dopant diffusion, uncertainty and inverse process design.<br>
@@ -60,18 +72,6 @@ Physics-grounded surrogate modelling for silicon oxidation, dopant diffusion, un
 **[Lithotwin Computational Lithography](https://github.com/HarshSaand/lithotwin-computational-lithography)**<br>
 Conditional neural surrogate for computational lithography and resist-contour prediction.<br>
 <sub>Python / Aug 2026</sub>
-
-**[Wafer Process Signature Triage](https://github.com/HarshSaand/wafer-process-signature-triage)**<br>
-Interpretable wafer-map classification with spatial signatures, calibrated confidence and similar-case retrieval.<br>
-<sub>Python / anomaly triage / computer vision / Aug 2026</sub>
-
-**[Local Multilingual Speech Intelligence](https://github.com/HarshSaand/local-multilingual-speech-intelligence)**<br>
-Privacy-conscious local multilingual transcription, translation and optional speaker diarization with structured exports.<br>
-<sub>Python / local ai / multilingual / Aug 2026</sub>
-
-**[Multi-Agent Tileworld](https://github.com/HarshSaand/Multi-Agent-Tile-PJ)**<br>
-Cooperative Tileworld agents using A*, shared working memory, broadcasts, complementary patrols and fuel-aware planning.<br>
-<sub>Java / a star / cooperative ai / Aug 2026</sub>
 <!-- RECENT_WORK:END -->
 
 ## Seven systems worth opening
