@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+  <title id="title">For recruiters</title>
+  <desc id="desc">Harsh completes his MSc in Artificial Intelligence at NTU Singapore in January 2027 and welcomes conversations about full time AI, research, software, data, vision, language, and multimodal roles. Singapore is preferred with international mobility.</desc>
+  <defs>
+    <filter id="shadow" x="-10%" y="-20%" width="120%" height="150%"><feDropShadow dy="8" stdDeviation="12" flood-color="#000" flood-opacity=".22"/></filter>
+  </defs>
+
+  <rect x="14" y="14" width="1172" height="352" rx="26" fill="#151A24" stroke="#2A3242" filter="url(#shadow)"/>
+  <rect x="14" y="14" width="7" height="352" rx="3.5" fill="#E8B84A"/>
+
+  <g font-family="Arial,Helvetica,sans-serif">
+    <rect x="47" y="34" width="178" height="36" rx="7" fill="#F1C75B"/>
+    <text x="59" y="62" fill="#171B23" font-size="25" font-weight="800" letter-spacing="-.25">For recruiters</text>
+
+    <text x="53" y="113" fill="#D6DEEB" font-size="17">I’ll complete my MSc in Artificial Intelligence at NTU Singapore in</text>
+    <rect x="548" y="89" width="140" height="29" rx="5" fill="#F1C75B"/>
+    <text x="559" y="112" fill="#171B23" font-size="17" font-weight="800">January 2027.</text>
+    <text x="53" y="141" fill="#AEB8C8" font-size="16">If my work aligns with what your team is building, reach out by email or LinkedIn.</text>
+    <text x="53" y="166" fill="#AEB8C8" font-size="16">I’m open to a focused conversation about how my experience could contribute</text>
+    <text x="53" y="191" fill="#AEB8C8" font-size="16">to the work your team is doing.</text>
+    <rect x="47" y="205" width="262" height="29" rx="5" fill="#F1C75B"/>
+    <text x="58" y="227" fill="#171B23" font-size="16" font-weight="800">Singapore is my preferred base.</text>
+    <text x="325" y="228" fill="#D6DEEB" font-size="16">I am also open to strong opportunities across</text>
+    <text x="53" y="253" fill="#AEB8C8" font-size="16">the Netherlands, Taiwan, Japan, Australia, the United States, and other leading engineering hubs.</text>
+
+    <!-- Restrained outlined labels replace the oversized coloured ribbons. -->
+    <g transform="translate(53 307)" font-size="12" font-weight="700" letter-spacing=".45">
+      <g><rect width="126" height="36" rx="18" fill="#1B2230" stroke="#654936"/><text x="63" y="23" text-anchor="middle" fill="#E4D5CA">APPLIED AI</text></g>
+      <g transform="translate(138)"><rect width="168" height="36" rx="18" fill="#1B2230" stroke="#654936"/><text x="84" y="23" text-anchor="middle" fill="#E4D5CA">AI SOFTWARE</text></g>
+      <g transform="translate(318)"><rect width="158" height="36" rx="18" fill="#1B2230" stroke="#654936"/><text x="79" y="23" text-anchor="middle" fill="#E4D5CA">DATA SCIENCE</text></g>
+      <g transform="translate(488)"><rect width="198" height="36" rx="18" fill="#1B2230" stroke="#654936"/><text x="99" y="23" text-anchor="middle" fill="#E4D5CA">VISION + MULTIMODAL</text></g>
+      <g transform="translate(698)"><rect width="150" height="36" rx="18" fill="#1B2230" stroke="#654936"/><text x="75" y="23" text-anchor="middle" fill="#E4D5CA">LLMS + SPEECH</text></g>
+      <g transform="translate(860)"><rect width="205" height="36" rx="18" fill="#1B2230" stroke="#654936"/><text x="102.5" y="23" text-anchor="middle" fill="#E4D5CA">RESEARCH ENGINEERING</text></g>
+    </g>
+  </g>
+</svg>

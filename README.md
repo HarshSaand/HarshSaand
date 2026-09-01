@@ -12,13 +12,7 @@ Process physics becomes a fast design tool. A wafer image becomes an inspectable
 
 **For example:** I might combine process conditions with wafer imagery to understand a manufacturing outcome, or connect images, language, and system logs to investigate a problem from more than one source. The domain may change, but my approach stays consistent: define the inputs and assumptions, preserve the evidence behind each result, test realistic failure cases, and state clearly what the system cannot conclude.
 
-### If something here caught your attention
-
-I’ll be completing my MSc in Artificial Intelligence at NTU Singapore in January 2027. If you are looking for a potential candidate and like the way I approach problems or build projects, feel free to reach out through [email](mailto:harshsaand@yahoo.com) or [LinkedIn](https://www.linkedin.com/in/harsh-saand-961228230). I would be happy to have a conversation.
-
-I’m exploring full time opportunities across applied AI, AI software engineering, data science, research engineering, computer vision, LLMs, multimodal systems, and speech and NLP.
-
-Singapore is my preferred base. I am also open to strong opportunities across the Netherlands, Taiwan, Japan, Australia, the United States, and other leading engineering hubs.
+<img alt="Recruiter introduction covering January 2027 graduation, role interests, Singapore preference, and international mobility" src="assets/recruiter-card.svg" width="100%">
 
 [Email](mailto:harshsaand@yahoo.com) · [LinkedIn](https://www.linkedin.com/in/harsh-saand-961228230) · [Portfolio](https://harshsaand.github.io/) · [Start a technical conversation](https://github.com/HarshSaand/HarshSaand/issues/new?title=Technical%20conversation%3A%20&body=Hi%20Harsh%2C%0A%0AI%20was%20looking%20at%20...)
 
