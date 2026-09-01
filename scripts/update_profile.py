@@ -25,6 +25,7 @@ DISPLAY_NAMES = {
     "local-multilingual-speech-intelligence": "Local Multilingual Speech Intelligence",
     "Multi-Agent-Tile-PJ": "Multi-Agent Tileworld",
     "processtwin-ai-tcad": "ProcessTwin AI TCAD",
+    "silicon-debug-copilot": "Silicon Debug Copilot",
     "wafer-process-signature-triage": "Wafer Process Signature Triage",
 }
 

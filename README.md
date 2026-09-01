@@ -49,9 +49,13 @@ Grouped splits, calibration, abstention, distribution-shift awareness, provenanc
 This section refreshes automatically from my latest substantial public repositories. A new project with a clear GitHub description joins the feed after its first push.
 
 <!-- RECENT_WORK:START -->
+**[Silicon Debug Copilot](https://github.com/HarshSaand/silicon-debug-copilot)**<br>
+Evidence-grounded system-log triage with deterministic retrieval, traceable citations and safe abstention.<br>
+<sub>Python / fastapi / log analysis / Sep 2026</sub>
+
 **[Harshsaand.Github.Io](https://github.com/HarshSaand/HarshSaand.github.io)**<br>
 Harsh Saand’s personal website featuring AI engineering experience, education, projects and results.<br>
-<sub>HTML / Aug 2026</sub>
+<sub>HTML / Sep 2026</sub>
 
 **[Pausepoint](https://github.com/HarshSaand/pausepoint)**<br>
 Streaming NLP system for conversation-stage scam risk and evidence-led intervention.<br>
@@ -68,17 +72,28 @@ Selective NLP and entity-resolution system for noisy payment merchant descriptor
 **[Processtwin Semiconductor Ai](https://github.com/HarshSaand/processtwin-semiconductor-ai)**<br>
 Physics-grounded surrogate modelling for silicon oxidation, dopant diffusion, uncertainty and inverse process design.<br>
 <sub>Python / inverse design / physics informed ml / Aug 2026</sub>
-
-**[Lithotwin Computational Lithography](https://github.com/HarshSaand/lithotwin-computational-lithography)**<br>
-Conditional neural surrogate for computational lithography and resist-contour prediction.<br>
-<sub>Python / Aug 2026</sub>
 <!-- RECENT_WORK:END -->
 
-## Seven systems worth opening
+## Eight systems worth opening
 
 These are not the limits of what I build. They are the clearest examples of how I think.
 
 <details open>
+<summary><b>Silicon Debug Copilot</b> | evidence-grounded system-log triage</summary>
+
+[Open repository](https://github.com/HarshSaand/silicon-debug-copilot)
+
+Can a local workflow turn a failed system log into a traceable investigation path without inventing a cause?
+
+`system log → bounded parsing → signature rules + BM25 retrieval → evidence checks → hypothesis or abstention`
+
+- Built deterministic triage for PCIe, ECC, thermal, firmware mismatch, device reset, and timeout signatures, with stable citations to the supplied log.
+- The integrated workflow reached 1.000 macro-F1 and 0.933 evidence recall@3 on 24 held-out synthetic regression cases; these results verify the narrow workflow, not physical root-cause accuracy.
+- Added reviewed runbook retrieval, explicit abstention, strict Pydantic reports, Streamlit and FastAPI interfaces, and automated tests for parsing, evidence integrity, API behaviour, and evaluation.
+
+</details>
+
+<details>
 <summary><b>Merchant Mirror</b> | merchant descriptor resolution</summary>
 
 [Open repository](https://github.com/HarshSaand/merchant-mirror)
