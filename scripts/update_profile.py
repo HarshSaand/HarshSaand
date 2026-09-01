@@ -82,6 +82,7 @@ def render_feed(repositories: list[dict[str, Any]]) -> str:
         name = DISPLAY_NAMES.get(repo["name"], repo["name"].replace("-", " ").title())
         link = repo["html_url"]
         description = str(repo["description"]).strip().rstrip(".")
+        description = description.replace("—", ",").replace("–", ",").replace("-", " ")
         language = repo.get("language") or "Mixed stack"
         topics = [str(topic).replace("-", " ") for topic in repo.get("topics", [])[:2]]
         metadata = " / ".join([language, *topics, readable_date(repo.get("pushed_at"))])
