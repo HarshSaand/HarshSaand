@@ -46,8 +46,6 @@ Grouped splits, calibration, abstention, distribution-shift awareness, provenanc
 
 ## Latest from the lab
 
-This section refreshes automatically from my latest substantial public repositories. A new project with a clear GitHub description joins the feed after its first push.
-
 <!-- RECENT_WORK:START -->
 **[Silicon Debug Copilot](https://github.com/HarshSaand/silicon-debug-copilot)**<br>
 Evidence-grounded system-log triage with deterministic retrieval, traceable citations and safe abstention.<br>
@@ -74,129 +72,17 @@ Physics-grounded surrogate modelling for silicon oxidation, dopant diffusion, un
 <sub>Python / inverse design / physics informed ml / Aug 2026</sub>
 <!-- RECENT_WORK:END -->
 
-## Eight systems worth opening
+## Four builds I would start with
 
-These are not the limits of what I build. They are the clearest examples of how I think.
+**[LithoTwin](https://github.com/HarshSaand/lithotwin-computational-lithography)** — a conditional surrogate for simulated resist-contour prediction. It is evaluated on grouped geometries and process shifts, and it remains explicit about the gap between a scalar Fourier-optics simulator and production lithography.
 
-<details open>
-<summary><b>Silicon Debug Copilot</b> | evidence-grounded system-log triage</summary>
+**[ProcessTwin](https://github.com/HarshSaand/processtwin-semiconductor-ai)** — reduced-order oxidation and diffusion models paired with learned surrogates, OOD checks, and simulator-verified inverse recipe search. The reported results measure simulator fidelity, not fab accuracy.
 
-[Open repository](https://github.com/HarshSaand/silicon-debug-copilot)
+**[Wafer Process-Signature Triage](https://github.com/HarshSaand/wafer-process-signature-triage)** — Cartesian and polar wafer-map analysis with calibrated rankings, uncertainty routing, and similar-case retrieval. It supports pattern review; it does not claim causal diagnosis.
 
-Can a local workflow turn a failed system log into a traceable investigation path without inventing a cause?
+**[Silicon Debug Copilot](https://github.com/HarshSaand/silicon-debug-copilot)** — local system-log triage with deterministic rules, BM25 retrieval, traceable evidence, and abstention. Its benchmark is synthetic and deliberately narrow.
 
-`system log → bounded parsing → signature rules + BM25 retrieval → evidence checks → hypothesis or abstention`
-
-- Built deterministic triage for PCIe, ECC, thermal, firmware mismatch, device reset, and timeout signatures, with stable citations to the supplied log.
-- The integrated workflow reached 1.000 macro-F1 and 0.933 evidence recall@3 on 24 held-out synthetic regression cases; these results verify the narrow workflow, not physical root-cause accuracy.
-- Added reviewed runbook retrieval, explicit abstention, strict Pydantic reports, Streamlit and FastAPI interfaces, and automated tests for parsing, evidence integrity, API behaviour, and evaluation.
-
-</details>
-
-<details>
-<summary><b>Merchant Mirror</b> | merchant descriptor resolution</summary>
-
-[Open repository](https://github.com/HarshSaand/merchant-mirror)
-
-Can noisy card-statement descriptions be resolved to likely merchants without forcing a low-confidence match?
-
-`descriptor → normalization → candidate retrieval → reranking → calibrated match or review`
-
-- Built descriptor normalization, character and token similarity, location-aware ranking, confidence margins, and an auditable evidence record.
-- The included six-case fixture verifies the end-to-end pipeline. It is a smoke test, not a benchmark estimate.
-- The full experiment is structured for sentence-transformer retrieval, cross-encoder reranking, constrained LLM comparison, and held-out-city evaluation.
-
-</details>
-
-<details>
-<summary><b>EdgeCase Foundry</b> | GenAI-assisted model stress testing</summary>
-
-[Open repository](https://github.com/HarshSaand/edgecase-foundry)
-
-Can an emerging risk hypothesis become a validated, reproducible model stress test before enough real examples accumulate?
-
-`risk hypothesis → typed scenario → constraint validation → sequence generation → model replay`
-
-- Built a natural-language scenario compiler, deterministic validation, seeded transaction generation, and failure-slice replay.
-- In the included controlled scenario, a transparent threshold model detected 86 of 200 final risk events, exposing the intended threshold blind spot.
-- The result characterizes the fixture and model under test; it is not an estimate of fraud prevented.
-
-</details>
-
-<details>
-<summary><b>PausePoint</b> | streaming scam-risk analysis</summary>
-
-[Open repository](https://github.com/HarshSaand/pausepoint)
-
-Can a system recognize social-engineering progression early enough to support a proportionate intervention?
-
-`incoming message → fast signals → rolling risk state → selective LLM evidence → policy action`
-
-- Built message-by-message replay, conversation-stage signals, rolling risk, evidence recording, and monitor, review, or warning routes.
-- The included four-turn fixture escalates from monitoring to LLM review on turn three and `warn_and_verify` on turn four.
-- The proposed hybrid architecture keeps a compact model in the fast path and uses a constrained LLM only for ambiguous cases.
-
-</details>
-
-<details>
-<summary><b>ProcessTwin AI TCAD</b> | physics-guided semiconductor modelling</summary>
-
-[Open repository](https://github.com/HarshSaand/processtwin-ai-tcad)
-
-Can reduced-order silicon process physics and a learned surrogate support fast recipe exploration without hiding what the model approximates?
-
-`recipe → reduced-order physics → simulated DOE → PCA + residual ensemble → inverse search → solver verification`
-
-- Built Deal-Grove oxidation, 1D dopant diffusion, a deterministic 6,000-recipe simulated DOE, PCA profile compression, residual MLP ensembles, OOD warnings, and simulator-verified inverse design.
-- Held-out simulator fidelity reached R² 0.9968 for oxide thickness and 0.9985 for junction depth. These are simulator-backed results, not fab calibration.
-- [Inspect the source](https://github.com/HarshSaand/processtwin-ai-tcad/tree/main/src/processtwin), [saved metrics](https://github.com/HarshSaand/processtwin-ai-tcad/blob/main/outputs/metrics.json), [tests](https://github.com/HarshSaand/processtwin-ai-tcad/tree/main/tests), or the [technical report](https://github.com/HarshSaand/processtwin-ai-tcad/blob/main/outputs/processtwin_report.pdf).
-
-</details>
-
-<details>
-<summary><b>Wafer Process Signature Triage</b> | spatial evidence for engineering review</summary>
-
-[Open repository](https://github.com/HarshSaand/wafer-process-signature-triage)
-
-Can wafer-map geometry become a useful review signal while keeping spatial structure visible to an engineer?
-
-`wafer image → grouped split → Cartesian and polar views → calibrated ranking → review route + similar cases`
-
-- Fused Cartesian and polar CNN views with a 17-value spatial signature, grouped splitting, temperature calibration, uncertainty routing, and similar-case retrieval.
-- The saved seed-42 run reached 0.812 macro-F1 on an untouched 138-image grouped test split across nine classes.
-- This is pattern triage, not causal root-cause diagnosis. [Inspect provenance](https://github.com/HarshSaand/wafer-process-signature-triage/blob/main/DATA_PROVENANCE.md), [source](https://github.com/HarshSaand/wafer-process-signature-triage/tree/main/src/wafer_tcad), [metrics](https://github.com/HarshSaand/wafer-process-signature-triage/blob/main/outputs/metrics.json), or [tests](https://github.com/HarshSaand/wafer-process-signature-triage/tree/main/tests).
-
-</details>
-
-<details>
-<summary><b>DeepShield ApprovalGuard</b> | multimodal integrity evidence</summary>
-
-[Open repository](https://github.com/HarshSaand/deepshield-approvalguard)
-
-Before a sensitive financial instruction moves forward, can local AI surface media-integrity evidence that deserves human review?
-
-`recording → quality checks → independent evidence branches → timestamped timeline → review route`
-
-- Combined synthetic-voice, face-manipulation, visual-continuity, media-quality, and audio-video timing branches with timestamped evidence and abstention.
-- The AASIST audio branch reached ROC-AUC 0.9078 on a balanced 570-file ASVspoof subset. Other branches use functional fixtures and are not presented as validated detectors.
-- The system supports review; it does not establish identity, intent, or fraud. [Inspect the pipeline](https://github.com/HarshSaand/deepshield-approvalguard/tree/main/approvalguard), [evaluation](https://github.com/HarshSaand/deepshield-approvalguard/tree/main/evaluation), [dataset card](https://github.com/HarshSaand/deepshield-approvalguard/blob/main/DATASET_CARD.md), or [model provenance](https://github.com/HarshSaand/deepshield-approvalguard/blob/main/THIRD_PARTY_MODELS.md).
-
-</details>
-
-<details>
-<summary><b>Local Multilingual Speech Intelligence</b> | private speech pipelines</summary>
-
-[Open repository](https://github.com/HarshSaand/local-multilingual-speech-intelligence)
-
-How can multilingual recordings be transcribed, translated, speaker-labelled, and reviewed while keeping audio processing local?
-
-`local media → VAD + faster-whisper → optional diarization → overlap assignment → TXT / JSON / HTML`
-
-- Built a compact `faster-whisper` pipeline with optional `pyannote.audio` diarization, temporal-overlap speaker assignment, and accessible exports.
-- The repository includes synthetic data and deterministic tests for timestamps, speaker overlap, JSON preservation, and HTML escaping. It is a reference pipeline, not a claimed speech-quality benchmark.
-- [Inspect the source](https://github.com/HarshSaand/local-multilingual-speech-intelligence/blob/main/local_speech_intelligence.py), [synthetic output](https://github.com/HarshSaand/local-multilingual-speech-intelligence/blob/main/examples/synthetic-transcript.json), or [tests](https://github.com/HarshSaand/local-multilingual-speech-intelligence/tree/main/tests).
-
-</details>
+The rest of my work—including speech, multimodal integrity, NLP, and model assurance—is easier to browse on my [project portfolio](https://harshsaand.github.io/#projects).
 
 ## How I think
 
