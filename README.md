@@ -46,29 +46,29 @@ Every result above carries its boundary with it. Simulator fidelity is not fab a
 <summary><b>Recent repository activity</b></summary>
 
 <!-- RECENT_WORK:START -->
-**[Silicon Debug Copilot](https://github.com/HarshSaand/silicon-debug-copilot)**<br>
-Evidence grounded system log triage with deterministic retrieval, traceable citations and safe abstention.<br>
-<sub>Python / fastapi / log analysis / Sep 2026</sub>
+**[Factorforge](https://github.com/HarshSaand/factorforge)**<br>
+Purged cross sectional signal research with measured baselines and cost sensitivity.<br>
+<sub>Python / Sep 2026</sub>
 
-**[Harshsaand.Github.Io](https://github.com/HarshSaand/HarshSaand.github.io)**<br>
-Harsh Saand’s personal website featuring AI engineering experience, education, projects and results.<br>
-<sub>HTML / Sep 2026</sub>
+**[Flowrisk](https://github.com/HarshSaand/flowrisk)**<br>
+Trade flow forecasting on 15.8M public crypto events: chronological evaluation, adaptive baselines, quantile risk and documented model failures.<br>
+<sub>Python / Sep 2026</sub>
 
-**[Pausepoint](https://github.com/HarshSaand/pausepoint)**<br>
-Streaming NLP system for conversation stage scam risk and evidence led intervention.<br>
-<sub>Python / Aug 2026</sub>
+**[Papertrail](https://github.com/HarshSaand/papertrail)**<br>
+Evidence grounded research QA: trained MiniLM, local Qwen, QASPER evaluation and honest failure analysis.<br>
+<sub>Python / Sep 2026</sub>
 
-**[Edgecase Foundry](https://github.com/HarshSaand/edgecase-foundry)**<br>
-GenAI assisted model assurance workbench for reproducible transaction stress tests.<br>
-<sub>Python / Aug 2026</sub>
-
-**[Merchant Mirror](https://github.com/HarshSaand/merchant-mirror)**<br>
-Selective NLP and entity resolution system for noisy payment merchant descriptors.<br>
-<sub>Python / Aug 2026</sub>
+**[Wafer Process Signature Triage](https://github.com/HarshSaand/wafer-process-signature-triage)**<br>
+Interpretable wafer map classification with spatial signatures, calibrated confidence and similar case retrieval.<br>
+<sub>Python / anomaly triage / computer vision / Sep 2026</sub>
 
 **[Processtwin Semiconductor Ai](https://github.com/HarshSaand/processtwin-semiconductor-ai)**<br>
 Physics grounded surrogate modelling for silicon oxidation, dopant diffusion, uncertainty and inverse process design.<br>
-<sub>Python / inverse design / physics informed ml / Aug 2026</sub>
+<sub>Python / inverse design / physics informed ml / Sep 2026</sub>
+
+**[Relay Nlu](https://github.com/HarshSaand/relay-nlu)**<br>
+Multilingual intent routing: supervised E5 adaptation, calibrated human review and source ID disjoint MASSIVE evaluation.<br>
+<sub>Python / Sep 2026</sub>
 <!-- RECENT_WORK:END -->
 
 </details>
