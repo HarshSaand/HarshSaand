@@ -46,25 +46,25 @@ Every result above carries its boundary with it. Simulator fidelity is not fab a
 <summary><b>Recent repository activity</b></summary>
 
 <!-- RECENT_WORK:START -->
-**[Factorforge](https://github.com/HarshSaand/factorforge)**<br>
-Purged cross sectional signal research with measured baselines and cost sensitivity.<br>
+**[Harshsaand.Github.Io](https://github.com/HarshSaand/HarshSaand.github.io)**<br>
+Harsh Saand’s personal website featuring AI engineering experience, education, projects and results.<br>
+<sub>HTML / Sep 2026</sub>
+
+**[Sem Review](https://github.com/HarshSaand/sem-review)**<br>
+Real semiconductor SEM segmentation with editable masks, inspection exports and held out evaluation.<br>
 <sub>Python / Sep 2026</sub>
 
-**[Flowrisk](https://github.com/HarshSaand/flowrisk)**<br>
-Trade flow forecasting on 15.8M public crypto events: chronological evaluation, adaptive baselines, quantile risk and documented model failures.<br>
+**[Stereoscope](https://github.com/HarshSaand/stereoscope)**<br>
+Calibrated stereo depth, learned error confidence pilots, and transparent real data evaluation.<br>
 <sub>Python / Sep 2026</sub>
 
-**[Papertrail](https://github.com/HarshSaand/papertrail)**<br>
-Evidence grounded research QA: trained MiniLM, local Qwen, QASPER evaluation and honest failure analysis.<br>
+**[Silicon Debug Copilot](https://github.com/HarshSaand/silicon-debug-copilot)**<br>
+Evidence grounded system log triage with deterministic retrieval, traceable citations and safe abstention.<br>
+<sub>Python / fastapi / log analysis / Sep 2026</sub>
+
+**[Trackwise](https://github.com/HarshSaand/trackwise)**<br>
+Learned motion association with real detector tracking evaluation and reproducible failure analysis.<br>
 <sub>Python / Sep 2026</sub>
-
-**[Wafer Process Signature Triage](https://github.com/HarshSaand/wafer-process-signature-triage)**<br>
-Interpretable wafer map classification with spatial signatures, calibrated confidence and similar case retrieval.<br>
-<sub>Python / anomaly triage / computer vision / Sep 2026</sub>
-
-**[Processtwin Semiconductor Ai](https://github.com/HarshSaand/processtwin-semiconductor-ai)**<br>
-Physics grounded surrogate modelling for silicon oxidation, dopant diffusion, uncertainty and inverse process design.<br>
-<sub>Python / inverse design / physics informed ml / Sep 2026</sub>
 
 **[Relay Nlu](https://github.com/HarshSaand/relay-nlu)**<br>
 Multilingual intent routing: supervised E5 adaptation, calibrated human review and source ID disjoint MASSIVE evaluation.<br>
