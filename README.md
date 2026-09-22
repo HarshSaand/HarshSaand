@@ -128,4 +128,7 @@ If our questions overlap, [email me](mailto:harshsaand@yahoo.com), [connect on L
 
 ## Project reports
 
+**[SurfaceCheck](https://github.com/HarshSaand/surfacecheck)** compares recorded RGB and 3D surface evidence, with editable inspection regions and exportable review packets. Its fixed study retains the finding that the tested fusion method underperformed RGB alone. [Read the illustrated report](https://github.com/HarshSaand/surfacecheck/blob/main/docs/PROJECT_REPORT.pdf).
+
+
 Project repositories include a PDF report and an expandable Markdown explanation in `docs/`. These describe the problem, implemented method, logic flow, results, useful outputs and limitations.
