@@ -12,7 +12,7 @@ Process physics becomes a fast design tool. A wafer image becomes an inspectable
 
 **For example:** I might combine process conditions with wafer imagery to understand a manufacturing outcome, or connect images, language, and system logs to investigate a problem from more than one source. The domain may change, but my approach stays consistent: define the inputs and assumptions, preserve the evidence behind each result, test realistic failure cases, and state clearly what the system cannot conclude.
 
-<img alt="Recruiter introduction covering January 2027 graduation, role interests, Singapore preference, and international mobility" src="assets/recruiter-card.svg" width="100%">
+<img alt="Recruiter introduction covering December 2026 graduation, role interests, Singapore preference, and international mobility" src="assets/recruiter-card.svg" width="100%">
 
 [Email](mailto:harshsaand@yahoo.com) · [LinkedIn](https://www.linkedin.com/in/harsh-saand-961228230) · [Portfolio](https://harshsaand.github.io/) · [Start a technical conversation](https://github.com/HarshSaand/HarshSaand/issues/new?title=Technical%20conversation%3A%20&body=Hi%20Harsh%2C%0A%0AI%20was%20looking%20at%20...)
 
@@ -124,3 +124,8 @@ Engineering        Python, Java, REST APIs, Docker, Kubernetes, GPU computing
 I am looking primarily for **full time positions starting January 2027** in applied AI/ML, research engineering, computer vision, semiconductor intelligence, and applications and data engineering. I am also happy to discuss research collaborations or a particularly relevant internship that concludes before full time availability.
 
 If our questions overlap, [email me](mailto:harshsaand@yahoo.com), [connect on LinkedIn](https://www.linkedin.com/in/harsh-saand-961228230), or [start a technical conversation](https://github.com/HarshSaand/HarshSaand/issues/new?title=Technical%20conversation%3A%20&body=Hi%20Harsh%2C%0A%0AI%20was%20looking%20at%20...).
+
+
+## Project reports
+
+Project repositories include a PDF report and an expandable Markdown explanation in `docs/`. These describe the problem, implemented method, logic flow, results, useful outputs and limitations.
