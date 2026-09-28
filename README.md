@@ -46,29 +46,29 @@ Every result above carries its boundary with it. Simulator fidelity is not fab a
 <summary><b>Recent repository activity</b></summary>
 
 <!-- RECENT_WORK:START -->
+**[Surfacecheck](https://github.com/HarshSaand/surfacecheck)**<br>
+Recorded RGB and 3D anomaly evidence, editable inspection regions, reproducible evaluation and export packets.<br>
+<sub>Python / Sep 2026</sub>
+
 **[Harshsaand.Github.Io](https://github.com/HarshSaand/HarshSaand.github.io)**<br>
 Harsh Saand’s personal website featuring AI engineering experience, education, projects and results.<br>
 <sub>HTML / Sep 2026</sub>
 
-**[Sem Review](https://github.com/HarshSaand/sem-review)**<br>
-Real semiconductor SEM segmentation with editable masks, inspection exports and held out evaluation.<br>
+**[Qr Code Generator](https://github.com/HarshSaand/qr-code-generator)**<br>
+qr code using tkinter   group project.<br>
 <sub>Python / Sep 2026</sub>
 
-**[Stereoscope](https://github.com/HarshSaand/stereoscope)**<br>
-Calibrated stereo depth, learned error confidence pilots, and transparent real data evaluation.<br>
-<sub>Python / Sep 2026</sub>
+**[Multi-Agent Tileworld](https://github.com/HarshSaand/Multi-Agent-Tile-PJ)**<br>
+Cooperative Tileworld agents using A*, shared working memory, broadcasts, complementary patrols and fuel aware planning.<br>
+<sub>Java / a star / cooperative ai / Sep 2026</sub>
 
-**[Silicon Debug Copilot](https://github.com/HarshSaand/silicon-debug-copilot)**<br>
-Evidence grounded system log triage with deterministic retrieval, traceable citations and safe abstention.<br>
-<sub>Python / fastapi / log analysis / Sep 2026</sub>
+**[Auto Ml](https://github.com/HarshSaand/Auto-Ml)**<br>
+Early team coursework exploring automated machine learning workflows; retained as part of my learning history.<br>
+<sub>Python / automated machine learning / coursework / Sep 2026</sub>
 
-**[Trackwise](https://github.com/HarshSaand/trackwise)**<br>
-Learned motion association with real detector tracking evaluation and reproducible failure analysis.<br>
-<sub>Python / Sep 2026</sub>
-
-**[Relay Nlu](https://github.com/HarshSaand/relay-nlu)**<br>
-Multilingual intent routing: supervised E5 adaptation, calibrated human review and source ID disjoint MASSIVE evaluation.<br>
-<sub>Python / Sep 2026</sub>
+**[Artificial Linguistic Interaction And Communication Environment](https://github.com/HarshSaand/Artificial-Linguistic-Interaction-and-Communication-Environment)**<br>
+Early NLP coursework exploring Naive Bayes sentiment classification; retained as part of my learning history.<br>
+<sub>Python / coursework / naive bayes / Sep 2026</sub>
 <!-- RECENT_WORK:END -->
 
 </details>
