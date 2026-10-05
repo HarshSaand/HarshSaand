@@ -46,6 +46,10 @@ Every result above carries its boundary with it. Simulator fidelity is not fab a
 <summary><b>Recent repository activity</b></summary>
 
 <!-- RECENT_WORK:START -->
+**[Spatial Wafer Prediction](https://github.com/HarshSaand/spatial-wafer-prediction)**<br>
+Spatial wafer profile prediction with temporal process fusion and wafer level validation.<br>
+<sub>Python / Sep 2026</sub>
+
 **[Surfacecheck](https://github.com/HarshSaand/surfacecheck)**<br>
 Recorded RGB and 3D anomaly evidence, editable inspection regions, reproducible evaluation and export packets.<br>
 <sub>Python / Sep 2026</sub>
@@ -65,10 +69,6 @@ Cooperative Tileworld agents using A*, shared working memory, broadcasts, comple
 **[Auto Ml](https://github.com/HarshSaand/Auto-Ml)**<br>
 Early team coursework exploring automated machine learning workflows; retained as part of my learning history.<br>
 <sub>Python / automated machine learning / coursework / Sep 2026</sub>
-
-**[Artificial Linguistic Interaction And Communication Environment](https://github.com/HarshSaand/Artificial-Linguistic-Interaction-and-Communication-Environment)**<br>
-Early NLP coursework exploring Naive Bayes sentiment classification; retained as part of my learning history.<br>
-<sub>Python / coursework / naive bayes / Sep 2026</sub>
 <!-- RECENT_WORK:END -->
 
 </details>
