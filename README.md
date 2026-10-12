@@ -48,7 +48,7 @@ Every result above carries its boundary with it. Simulator fidelity is not fab a
 <!-- RECENT_WORK:START -->
 **[Spatial Wafer Prediction](https://github.com/HarshSaand/spatial-wafer-prediction)**<br>
 Spatial wafer profile prediction with temporal process fusion and wafer level validation.<br>
-<sub>Python / Sep 2026</sub>
+<sub>Python / Oct 2026</sub>
 
 **[Surfacecheck](https://github.com/HarshSaand/surfacecheck)**<br>
 Recorded RGB and 3D anomaly evidence, editable inspection regions, reproducible evaluation and export packets.<br>
