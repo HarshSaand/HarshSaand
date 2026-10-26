@@ -46,6 +46,10 @@ Every result above carries its boundary with it. Simulator fidelity is not fab a
 <summary><b>Recent repository activity</b></summary>
 
 <!-- RECENT_WORK:START -->
+**[Equipmentlab](https://github.com/HarshSaand/equipmentlab)**<br>
+Local production CSV review workbench with chronological evaluation, batch ranking, human review exports and equipment control tests.<br>
+<sub>HTML / Oct 2026</sub>
+
 **[Spatial Wafer Prediction](https://github.com/HarshSaand/spatial-wafer-prediction)**<br>
 Spatial wafer profile prediction with temporal process fusion and wafer level validation.<br>
 <sub>Python / Oct 2026</sub>
@@ -65,10 +69,6 @@ qr code using tkinter   group project.<br>
 **[Multi-Agent Tileworld](https://github.com/HarshSaand/Multi-Agent-Tile-PJ)**<br>
 Cooperative Tileworld agents using A*, shared working memory, broadcasts, complementary patrols and fuel aware planning.<br>
 <sub>Java / a star / cooperative ai / Sep 2026</sub>
-
-**[Auto Ml](https://github.com/HarshSaand/Auto-Ml)**<br>
-Early team coursework exploring automated machine learning workflows; retained as part of my learning history.<br>
-<sub>Python / automated machine learning / coursework / Sep 2026</sub>
 <!-- RECENT_WORK:END -->
 
 </details>
