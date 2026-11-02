@@ -46,6 +46,18 @@ Every result above carries its boundary with it. Simulator fidelity is not fab a
 <summary><b>Recent repository activity</b></summary>
 
 <!-- RECENT_WORK:START -->
+**[Harshsaand.Github.Io](https://github.com/HarshSaand/HarshSaand.github.io)**<br>
+Harsh Saand’s personal website featuring AI engineering experience, education, projects and results.<br>
+<sub>HTML / Nov 2026</sub>
+
+**[Sem Review](https://github.com/HarshSaand/sem-review)**<br>
+Real semiconductor SEM segmentation with editable masks, inspection exports and held out evaluation.<br>
+<sub>Python / Nov 2026</sub>
+
+**[Motionreview](https://github.com/HarshSaand/motionreview)**<br>
+Upload BVH or pose JSON, compare short horizon forecasts and export inspectable motion results.<br>
+<sub>Python / Nov 2026</sub>
+
 **[Equipmentlab](https://github.com/HarshSaand/equipmentlab)**<br>
 Local production CSV review workbench with chronological evaluation, batch ranking, human review exports and equipment control tests.<br>
 <sub>HTML / Oct 2026</sub>
@@ -57,18 +69,6 @@ Spatial wafer profile prediction with temporal process fusion and wafer level va
 **[Surfacecheck](https://github.com/HarshSaand/surfacecheck)**<br>
 Recorded RGB and 3D anomaly evidence, editable inspection regions, reproducible evaluation and export packets.<br>
 <sub>Python / Sep 2026</sub>
-
-**[Harshsaand.Github.Io](https://github.com/HarshSaand/HarshSaand.github.io)**<br>
-Harsh Saand’s personal website featuring AI engineering experience, education, projects and results.<br>
-<sub>HTML / Sep 2026</sub>
-
-**[Qr Code Generator](https://github.com/HarshSaand/qr-code-generator)**<br>
-qr code using tkinter   group project.<br>
-<sub>Python / Sep 2026</sub>
-
-**[Multi-Agent Tileworld](https://github.com/HarshSaand/Multi-Agent-Tile-PJ)**<br>
-Cooperative Tileworld agents using A*, shared working memory, broadcasts, complementary patrols and fuel aware planning.<br>
-<sub>Java / a star / cooperative ai / Sep 2026</sub>
 <!-- RECENT_WORK:END -->
 
 </details>
