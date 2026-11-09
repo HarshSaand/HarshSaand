@@ -46,6 +46,10 @@ Every result above carries its boundary with it. Simulator fidelity is not fab a
 <summary><b>Recent repository activity</b></summary>
 
 <!-- RECENT_WORK:START -->
+**[Spatial Wafer Prediction](https://github.com/HarshSaand/spatial-wafer-prediction)**<br>
+Spatial wafer profile prediction with temporal process fusion and wafer level validation.<br>
+<sub>Python / Nov 2026</sub>
+
 **[Harshsaand.Github.Io](https://github.com/HarshSaand/HarshSaand.github.io)**<br>
 Harsh Saand’s personal website featuring AI engineering experience, education, projects and results.<br>
 <sub>HTML / Nov 2026</sub>
@@ -61,10 +65,6 @@ Upload BVH or pose JSON, compare short horizon forecasts and export inspectable 
 **[Equipmentlab](https://github.com/HarshSaand/equipmentlab)**<br>
 Local production CSV review workbench with chronological evaluation, batch ranking, human review exports and equipment control tests.<br>
 <sub>HTML / Oct 2026</sub>
-
-**[Spatial Wafer Prediction](https://github.com/HarshSaand/spatial-wafer-prediction)**<br>
-Spatial wafer profile prediction with temporal process fusion and wafer level validation.<br>
-<sub>Python / Oct 2026</sub>
 
 **[Surfacecheck](https://github.com/HarshSaand/surfacecheck)**<br>
 Recorded RGB and 3D anomaly evidence, editable inspection regions, reproducible evaluation and export packets.<br>
